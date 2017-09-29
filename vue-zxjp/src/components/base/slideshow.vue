@@ -122,10 +122,12 @@
 		background: #000;
 	}
 	.slide-img {
+		
 		width: 100%;
 	}
 	.slide-img img {
 		width: 100%;
+		height: 100%;
 		position: absolute;
 		top: 0;
 	}

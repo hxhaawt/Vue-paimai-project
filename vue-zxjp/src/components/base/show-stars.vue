@@ -1,11 +1,10 @@
 <template>
-	<div>
+	<div class="stars">
 		<div id="starBg" class="star_bg_empty">
 			<div :class="['star_bg', needClass]"></div>
 		</div>
 		<span class="star-title">{{ number }} 星</span>
 	</div>
-
 </template>
 
 <script>
@@ -45,6 +44,9 @@
 	
 	$bg_url: '../../assets/star.png';
 	
+	.stars {
+		/*overflow: hidden;*/
+	}
 	/* 外层显示空星星 */
 	.star_bg_empty {
 		/* 星星宽是24px */
